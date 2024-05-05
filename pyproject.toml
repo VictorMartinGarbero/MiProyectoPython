@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "miproyectopython"
+version = "0.1.0"
+description = "Mi primer proyecto Python"
+authors = ["VictorMartinGarbero <victormartingarbero@outlook.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
